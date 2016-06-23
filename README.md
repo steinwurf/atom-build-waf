@@ -69,6 +69,16 @@ apm unlink --dev
 
 ## Running unit tests
 
+The first time you run the tests or if the are
+updated you need to run:
+
+```
+cd atom-build-waf
+apm install 
+```
+
+Subsequently you can run the tests with:
+
 ```
 cd atom-build-waf
 apm test
