@@ -69,7 +69,7 @@ apm unlink --dev
 
 ## Running unit tests
 
-The first time you run the tests or if the are
+The first time you run the tests or if the dependencies are
 updated you need to run:
 
 ```
