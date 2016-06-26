@@ -15,6 +15,11 @@ In file included from ../../test/src/test_select_symbol_id_writer_layers.cpp:6:0
      { };
         ^
 
+In file included from /lib-core/src/lib_core/full_vector_codes.hpp:8:0,
+                 from ../../test/src/test_file_encoder.cpp:14:
+/lib-core/src/lib_core/full_vector_decoder.hpp:19:45: fatal error: kodo_core/select_storage_type.hpp: No such file or directory
+compilation terminated.
+
 Waf: Leaving directory `/home/mvp/dev/steinwurf/kodo-core/build/linux'
 Build failed
  -> task in 'kodo_core_tests' failed (exit status 1):

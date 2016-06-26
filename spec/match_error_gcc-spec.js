@@ -16,7 +16,11 @@ describe("Match errors from gcc", () => {
             {file: '/lib-core/src/lib_core/select_symbol_id_writer_layers.hpp',
              line: '35',
              col: '9',
-             message: ' expected nested-name-specifier before ‘select_type2’'}]
+             message: ' expected nested-name-specifier before ‘select_type2’'},
+            {file: '/lib-core/src/lib_core/full_vector_decoder.hpp',
+             line: '19',
+             col: '45',
+             message: ' kodo_core/select_storage_type.hpp: No such file or directory'}]
         );
     });
 });
