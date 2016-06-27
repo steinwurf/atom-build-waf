@@ -15,7 +15,8 @@
     }
   },
   "dependencies": {
-    "glob": "^6.0.1"
+    "glob": "^6.0.1",
+    "xregexp": "^3.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.5",
