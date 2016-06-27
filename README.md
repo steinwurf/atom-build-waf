@@ -13,6 +13,7 @@ Since `waf` can build projects using many different compilers, the error output
 will depend on which compiler is used. Current version is tested only with:
 
 * gcc/g++
+* clang (reported to work)
 
 If you run into problems with other compilers, which is likely, you can add the
 sample output to the `spec` folder and make the unit test pass. It may require
