@@ -68,6 +68,21 @@ cd atom-build-waf
 apm unlink --dev
 ```
 
+#### Development work-flow
+
+In case you need to fix something in the package, this work-flow seems to work
+pretty well:
+
+1. Go to the sources `cd atom-build-waf`
+1. Create a new branch for your feature/tests
+1. Open Atom in the source folder `atom .`
+1. Code stuff
+1. Run unit tests using the `Spec Suite` directly by pressing `ctrl-alt-p`
+  1. In case you need logging you can put `colsole.log("message");` in the code
+  1. The log output is visible in the `Spec Suite` window by pressing
+     `ctrl-shift-i`
+1. When everything works, merge branch and celebrate!
+
 ## Running unit tests
 
 The first time you run the tests or if the dependencies are
@@ -75,7 +90,7 @@ updated you need to run:
 
 ```
 cd atom-build-waf
-apm install 
+apm install
 ```
 
 Subsequently you can run the tests with:
@@ -84,3 +99,6 @@ Subsequently you can run the tests with:
 cd atom-build-waf
 apm test
 ```
+
+Another convenient way of running the unit tests is directly from with Atom
+using the short-cut `ctrl-alt-p`.
