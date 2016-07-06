@@ -102,3 +102,37 @@ apm test
 
 Another convenient way of running the unit tests is directly from with Atom
 using the short-cut `ctrl-alt-p`.
+
+## Supported Waf commands
+
+Waf has a number of default commands such as `configure`, `build`, `clean` etc.,
+typically you can see these by running  `./waf --help`.
+
+Below you will find a list of commands currently supported. These commands are
+exposed as [Atom Build](https://atom.io/packages/build) targets.
+
+### Build target: `waf build`
+
+Runs:
+
+```
+python waf build
+```
+
+Additional arguments can be passed to build by going the `atom-build-waf`
+package settings. In settings specify additional arguments as a comma separated
+list i.e. `--run_tests, --run_benchmarks` will result in the following command
+line invocation of waf:
+
+
+```
+python waf build --run_tests --run_benchmarks
+```
+
+### Build target: `waf clean`
+
+Runs:
+
+```
+python waf clean
+```
